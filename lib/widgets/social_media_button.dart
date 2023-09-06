@@ -8,7 +8,7 @@ class SocialMediaButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(15),
+      padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         border: Border.all(color: Colors.grey[300]!),
         borderRadius: BorderRadius.circular(10),
@@ -16,7 +16,7 @@ class SocialMediaButton extends StatelessWidget {
       ),
       child: Image.asset(
         imagePath,
-        height: 50,
+        height: 30,
       ),
     );
   }

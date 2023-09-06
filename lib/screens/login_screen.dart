@@ -81,7 +81,7 @@ class LoginScreenContent extends StatelessWidget {
                         ),
                       ),
                     ),
-                    OrDivider(title: 'O Inicia sesión con'),
+                    OrDivider(title: 'O ingresa con'),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -90,6 +90,9 @@ class LoginScreenContent extends StatelessWidget {
                         const SizedBox(width: 20),
                         SocialMediaButton(
                             imagePath: 'assets/images/brand/apple.png'),
+                        const SizedBox(width: 20),
+                        SocialMediaButton(
+                            imagePath: 'assets/images/brand/facebook.png'),
                       ],
                     ),
                     const SizedBox(height: 25),
